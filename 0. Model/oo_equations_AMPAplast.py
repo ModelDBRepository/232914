@@ -133,7 +133,7 @@ eq_1_plastAMPA =   ('''
             gs_post = g : siemens (summed)
             dwampa/dt = ((wampa<wa_max)*(v_ltp_post/mV - Theta_low/mV)
             *(v_ltp_post/mV - Theta_low/mV > 0)*A_LTP*s_trace_pre
-            *(v_post/mV - Theta_high/mV)*(v_post/mV - Theta_high/mV > 0)):1 (clock-driven)
+            *(v_post/mV - Theta_high/mV)*(v_post/mV - Theta_high/mV > 0))*Hz:1 (clock-driven)
             dg_nmda/dt = -g_nmda/tau_NMDA : siemens (clock-driven)
             gNMDA_post = g_nmda : siemens (summed) 
             wnmda :1 

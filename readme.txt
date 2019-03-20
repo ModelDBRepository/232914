@@ -21,3 +21,8 @@ Figure 6:
 
 Jacopo Bono
 September 2017
+
+20190320 An update from Jacopo Bono for compatibility with newer
+versions of the Brian2 package.  The fix is very minimal (1 change in
+line 136 of the file "oo_equations_AMPAplast.py" which replaces the
+current version (in the folder "0. Model/")
